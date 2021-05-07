@@ -1,3 +1,4 @@
-Site for Josh Lake.
+Portfolio site for Josh Lake.
 
-I'll add more info as it develops.
+It's created in react using functional components and hooks.
+It also utilizes a rest API I created and host through Heroku to pull in a random fortune.
