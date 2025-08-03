@@ -1,0 +1,11 @@
+{
+	"title": "Recipe Saver",
+	"link": "#",
+	"thumbImageUrl": "/images/recipe-saver-thumb.jpg",
+	"thumbImageAlt": "recipe saver site",
+	"imageUrl": "",
+	"imageAlt": "",
+	"shortDescription": "Coming Soon: This project scrapes recipe details from a supplied url and saves them to a created profile.",
+	"longDescription": "",
+	"externalLink": "#"
+}

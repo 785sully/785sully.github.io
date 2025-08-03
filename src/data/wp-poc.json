@@ -1,0 +1,12 @@
+{
+	"title": "Headless WordPress POC",
+	"link": "/projects/wp-poc",
+	"thumbImageUrl": "/images/wp-react-thumb.jpg",
+	"thumbImageAlt": "Headless WordPress Proof of Concept site",
+	"imageUrl": "/images/wp-react-full.jpg",
+	"imageAlt": "Headless WordPress Proof of Concept site",
+	"shortDescription": "Headless WordPress proof of concept for Callahan",
+	"longDescription": "<strong>Features:</strong> I created this proof of concept to show that we could use Wordpress as a headless CMS with React as a faster loading front end. The current phase of this project is building out the remaining pages with Next.js.<br /><br /><strong>Tech:</strong> This project pulls the blog data via WordPress’ built-in REST API. Material-UI provides the components and styling.",
+	"externalLink": "https://wordpress-react-demo.netlify.app/",
+	"githubLink": "https://github.com/785sully/wordpress-react-demo"
+}
