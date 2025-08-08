@@ -1,5 +1,5 @@
-import React from 'react';
-import Fortune from './Fortune';
+// import React from 'react';
+// import Fortune from './Fortune';
 import PixelFrame from './PixelFrame';
 
 function Footer() {
@@ -7,7 +7,7 @@ function Footer() {
 		<footer>
 			<div className='footer-wrapper'>
 				<PixelFrame />
-				<Fortune />
+				{/* <Fortune /> */}
 			</div>
 		</footer>
 	);

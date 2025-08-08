@@ -28,7 +28,7 @@ const App = () => {
 					<Route path='/projects/wp-poc'>
 						<Project data={wp} />
 					</Route>
-					{/* update once we have the second project completed */}
+					{/* update once we have the third project completed */}
 					{/* <Route path='/projects/recipe-saver'>
 						<Project data={comingSoon} />
 					</Route> */}
