@@ -1,10 +1,11 @@
-import React from 'react';
+import type { FC } from 'react';
 import { useNavigate } from 'react-router-dom';
 import ExternalLink from '../images/external-link.svg?react';
 import  GithubLink from '../images/github.svg?react';
 // import extLinkSVG from '../images/external-link.svg';
+import type { ProjectItemProps } from '../types/projectData';
 
-const Project = ({ data }) => {
+const Project:FC<ProjectItemProps> = ({ data }) => {
 	const navigate = useNavigate();
 
 	const goBack = () => {

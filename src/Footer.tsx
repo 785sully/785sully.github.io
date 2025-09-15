@@ -1,8 +1,8 @@
-// import React from 'react';
+import type { FC } from 'react';
 // import Fortune from './Fortune';
 import PixelFrame from './PixelFrame';
 
-function Footer() {
+const Footer:FC = () => {
 	return (
 		<footer>
 			<div className='footer-wrapper'>

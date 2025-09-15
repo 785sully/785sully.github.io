@@ -1,7 +1,7 @@
-import React from 'react';
+import type { FC } from "react";
 // import heroHeadline from './static-data.js';
 
-const Hero = () => {
+const Hero:FC = () => {
 	return (
 		<section className='hero'>
 			<h1>

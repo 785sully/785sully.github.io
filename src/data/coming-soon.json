@@ -7,5 +7,6 @@
 	"imageAlt": "",
 	"shortDescription": "Coming Soon: This project scrapes recipe details from a supplied url and saves them to a created profile.",
 	"longDescription": "",
-	"externalLink": "#"
+	"externalLink": "#",
+	"githubLink": "#"
 }

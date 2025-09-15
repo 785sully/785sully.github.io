@@ -1,7 +1,8 @@
-import React from 'react';
+import type { FC } from 'react';
 import { Link } from 'react-router-dom';
+import type { ProjectItemProps } from './types/projectData';
 
-const ProjectItem = ({ data }) => {
+const ProjectItem: FC<ProjectItemProps> = ({ data }) => {
 	return (
 		<>
 			<Link to={data.link}>

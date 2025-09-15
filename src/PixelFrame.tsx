@@ -1,4 +1,3 @@
-import React from 'react';
 import Pixel from './Pixel';
 
 function PixelFrame() {
@@ -18,7 +17,7 @@ function PixelFrame() {
 	// then re-render on screen size change
 	return (
 		<div className='pixel-frame'>
-			{[...Array(360)].map((x, i) => (
+			{[...Array(360)].map((_, i) => (
 				<Pixel key={i} count={i} />
 			))}
 		</div>

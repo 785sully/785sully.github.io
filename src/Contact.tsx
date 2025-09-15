@@ -1,9 +1,9 @@
-import React from 'react';
+import type { FC } from 'react';
 import EmailIcon from './images/email.svg?react';
 import LinkedInIcon from './images/linkedin.svg?react';
 import ResumeIcon from './images/resume.svg?react';
 
-const Contact = () => {
+const Contact:FC = () => {
 	return (
 		<section className='contact'>
 			<h2>Contact Info</h2>

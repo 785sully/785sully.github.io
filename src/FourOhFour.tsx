@@ -1,6 +1,6 @@
-import React from 'react';
+import type { FC } from 'react';
 
-const FourOhFour = () => {
+const FourOhFour:FC = () => {
 	return (
 		<div>
 			<h1>404</h1>

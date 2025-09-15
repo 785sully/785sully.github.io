@@ -1,7 +1,5 @@
-import React from 'react';
-
-function Pixel({ count }) {
-	function getRandomInt(max) {
+function Pixel({ count }: { count: number }) {
+	function getRandomInt(max: number) {
 		return Math.floor(Math.random() * Math.floor(max));
 	}
 
