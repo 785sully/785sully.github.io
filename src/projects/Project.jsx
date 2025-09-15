@@ -1,14 +1,14 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
-import { ReactComponent as ExternalLink } from '../images/external-link.svg';
-import { ReactComponent as GithubLink } from '../images/github.svg';
+import { useNavigate } from 'react-router-dom';
+import ExternalLink from '../images/external-link.svg?react';
+import  GithubLink from '../images/github.svg?react';
 // import extLinkSVG from '../images/external-link.svg';
 
 const Project = ({ data }) => {
-	const history = useHistory();
+	const navigate = useNavigate();
 
 	const goBack = () => {
-		history.goBack();
+		navigate(-1);
 	};
 	return (
 		<section className='project-page'>

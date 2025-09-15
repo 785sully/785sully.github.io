@@ -1,7 +1,7 @@
 import React from 'react';
-import { ReactComponent as EmailIcon } from './images/email.svg';
-import { ReactComponent as LinkedInIcon } from './images/linkedin.svg';
-import { ReactComponent as ResumeIcon } from './images/resume.svg';
+import EmailIcon from './images/email.svg?react';
+import LinkedInIcon from './images/linkedin.svg?react';
+import ResumeIcon from './images/resume.svg?react';
 
 const Contact = () => {
 	return (
