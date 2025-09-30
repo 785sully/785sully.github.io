@@ -13,9 +13,9 @@ $mid-light: #2eafa8;
 $mid-lighter: #58d3af;
 $light: #91f5ad;
 $background-gradient: linear-gradient(
-	156deg,
-	rgba(145, 245, 173, 1) 0%,
-	rgba(35, 140, 150, 1) 100%
+    156deg,
+    rgba(145, 245, 173, 1) 0%,
+    rgba(35, 140, 150, 1) 100%
 );
 $transition: all 0.3s;
 // $light-green: #91F5AD;
@@ -23,183 +23,183 @@ $transition: all 0.3s;
 // $blue: #5C80E2;
 
 @mixin gradient-border {
-	border-style: solid;
-	border-width: 5px;
-	border-image-slice: 2;
-	border-image-source: linear-gradient(156deg, #91f5ad 0%, #238c96 100%);
+    border-style: solid;
+    border-width: 5px;
+    border-image-slice: 2;
+    border-image-source: linear-gradient(156deg, #91f5ad 0%, #238c96 100%);
 }
 body {
-	min-height: calc(100vh - 20px);
-	padding: 0;
-	margin: 0;
-	font-size: 16px;
-	font-family: 'Orelega One', sans-serif;
-	text-align: center;
-	color: $mid;
-	-webkit-font-smoothing: antialiased;
+    min-height: calc(100vh - 20px);
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Orelega One', sans-serif;
+    text-align: center;
+    color: $mid;
+    -webkit-font-smoothing: antialiased;
 }
 strong {
-	font-weight: bold;
+    font-weight: bold;
 }
 img {
-	max-width: 100%;
-	height: auto;
+    max-width: 100%;
+    height: auto;
 }
 .container {
-	width: 960px;
-	max-width: 100%;
-	margin: auto;
+    width: 960px;
+    max-width: 100%;
+    margin: auto;
 }
 .pixel-frame {
-	height: 200px;
-	font-size: 0;
-	width: 960px;
-	max-width: 100%;
-	margin: auto;
-	position: absolute;
-	top: 0;
-	z-index: -1;
-	overflow: hidden;
+    height: 200px;
+    font-size: 0;
+    width: 960px;
+    max-width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    overflow: hidden;
 }
 .pixel {
-	height: 15%;
-	width: 3.125%;
-	display: inline-block;
+    height: 15%;
+    width: 3.125%;
+    display: inline-block;
 }
 .hero {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	h1 {
-		color: $mid;
-		background: $background-gradient;
-		background: -webkit-$background-gradient;
-		-webkit-background-clip: text;
-		background-clip: text;
-		-webkit-text-fill-color: transparent;
-		border-style: solid;
-		@include gradient-border;
-		padding: 1rem 1rem 3rem 3rem;
-		display: inline-block;
-		font-size: 5rem;
-		margin: 1rem;
-	}
-	p {
-		border-style: solid;
-		@include gradient-border;
-		color: $dark;
-		padding: 2rem;
-		display: inline-block;
-		font-size: 1.5rem;
-		text-align: left;
-	}
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+        color: $mid;
+        background: $background-gradient;
+        background: -webkit-$background-gradient;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        border-style: solid;
+        @include gradient-border;
+        padding: 1rem 1rem 3rem 3rem;
+        display: inline-block;
+        font-size: 5rem;
+        margin: 1rem;
+    }
+    p {
+        border-style: solid;
+        @include gradient-border;
+        color: $dark;
+        padding: 2rem;
+        display: inline-block;
+        font-size: 1.5rem;
+        text-align: left;
+    }
 }
 .contact,
 .projects {
-	padding: 2rem 0;
-	h2 {
-		font-size: 3rem;
-		padding-bottom: 2rem;
-	}
+    padding: 2rem 0;
+    h2 {
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
 }
 .project-list {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 @media screen and (min-device-width: 1200px) {
-	.project-list {
-		flex-direction: row;
-		justify-content: space-around;
-	}
+    .project-list {
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 .card {
-	border-radius: 4px;
-	background: $background-gradient;
-	width: 300px;
-	max-width: 100%;
-	min-height: 320px;
-	padding: 2rem;
-	margin-bottom: 2rem;
-	color: #fff;
-	h3 {
-		font-size: 2rem;
-	}
-	img {
-		max-width: 100%;
-		display: block;
-		padding: 1rem 0;
-	}
+    border-radius: 4px;
+    background: $background-gradient;
+    width: 300px;
+    max-width: 100%;
+    min-height: 320px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    h3 {
+        font-size: 2rem;
+    }
+    img {
+        max-width: 100%;
+        display: block;
+        padding: 1rem 0;
+    }
 }
 .project-page {
-	h1 {
-		padding-bottom: 3rem;
-	}
-	p {
-		font-size: 1.5rem;
-	}
-	strong {
-		display: block;
-		font-size: 2rem;
-		padding-bottom: 0.5rem;
-	}
-	.external-link {
-		color: $dark;
-		font-size: 2rem;
-		display: inline-block;
-		margin: 1rem;
-		svg {
-			vertical-align: middle;
-			height: 20px;
-		}
-		&:hover {
-			color: $mid;
-		}
-	}
-	button {
-		display: block;
-		margin: 2rem auto;
-		border: none;
-		background: none;
-		color: $mid;
-		font-family: 'Orelega One', sans-serif;
-		font-size: 2rem;
-		cursor: pointer;
-	}
+    h1 {
+        padding-bottom: 3rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+    strong {
+        display: block;
+        font-size: 2rem;
+        padding-bottom: 0.5rem;
+    }
+    .external-link {
+        color: $dark;
+        font-size: 2rem;
+        display: inline-block;
+        margin: 1rem;
+        svg {
+            vertical-align: middle;
+            height: 20px;
+        }
+        &:hover {
+            color: $mid;
+        }
+    }
+    button {
+        display: block;
+        margin: 2rem auto;
+        border: none;
+        background: none;
+        color: $mid;
+        font-family: 'Orelega One', sans-serif;
+        font-size: 2rem;
+        cursor: pointer;
+    }
 }
 .contact {
-	svg {
-		height: 40px;
-		transition: $transition;
-		&.email,
-		&.resume {
-			stroke: $mid;
-			&:hover {
-				stroke: $mid-dark;
-			}
-		}
-		&.linkedin {
-			fill: $mid;
-			&:hover {
-				fill: $mid-dark;
-			}
-		}
-	}
-	.contact-list {
-		display: flex;
-		justify-content: space-around;
-	}
+    svg {
+        height: 40px;
+        transition: $transition;
+        &.email,
+        &.resume {
+            stroke: $mid;
+            &:hover {
+                stroke: $mid-dark;
+            }
+        }
+        &.linkedin {
+            fill: $mid;
+            &:hover {
+                fill: $mid-dark;
+            }
+        }
+    }
+    .contact-list {
+        display: flex;
+        justify-content: space-around;
+    }
 }
 .fortune {
-	background-color: $dark;
-	color: #fff;
-	color: $light;
-	padding: 1rem;
+    background-color: $dark;
+    color: #fff;
+    color: $light;
+    padding: 1rem;
 }
 .footer-wrapper {
-	display: flex;
-	height: 200px;
-	align-items: center;
-	justify-content: center;
-	position: relative;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
