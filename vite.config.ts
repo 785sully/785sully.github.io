@@ -8,4 +8,7 @@ export default defineConfig({
   // server: {
   //           host: '127.0.0.1' // or '0.0.0.0' for external access
   //         }
+  build: {
+    outDir: 'docs',
+  },
 })
